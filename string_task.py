@@ -11,3 +11,8 @@ for char in statement:
             print(f"the first occurence of '{char}' is '{first_occr}' and next occurence is '{second_occr}' next occurence is '{third_occr}'\n")
     else:
          print(f"there is no occurence of '{char}' and hence returning '{second_occr}'\n")
+
+            
+#             Hint:
+# for  each_char in statement:
+#        statement.find(each_char,[statment.index(each_char)+1,len(statement)])
